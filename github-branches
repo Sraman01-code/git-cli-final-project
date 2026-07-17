@@ -1,12 +1,10 @@
-$ git branch -vv
-  bug-fix-typo e0dbab0 [origin/bug-fix-typo] Fix typo in README: add missing colon after Output
-* main         e0dbab0 [origin/main: ahead 1] Fix typo in README: add missing colon after Output
-
-$ git branch -a
-  bug-fix-typo
-* main
-  remotes/origin/HEAD -> origin/main
-  remotes/origin/bug-fix-typo
-  remotes/origin/main
-  remotes/upstream/HEAD -> upstream/main
-  remotes/upstream/main
+$ git branch -a -vv
+* bug-fix-revert                1837c95 [origin/bug-fix-revert] Revert "Fix typo in README: add missing colon after Output"
+  bug-fix-typo                  e0dbab0 [origin/bug-fix-typo] Fix typo in README: add missing colon after Output
+  main                          e0dbab0 [origin/main: ahead 1] Fix typo in README: add missing colon after Output
+  remotes/origin/HEAD           -> origin/main
+  remotes/origin/bug-fix-revert 1837c95 Revert "Fix typo in README: add missing colon after Output"
+  remotes/origin/bug-fix-typo   e0dbab0 Fix typo in README: add missing colon after Output
+  remotes/origin/main           ad95b0a Create close_pr.yml
+  remotes/upstream/HEAD         -> upstream/main
+  remotes/upstream/main         ad95b0a Create close_pr.yml
